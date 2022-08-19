@@ -20,3 +20,6 @@ while (guess !== num && guesses < 5) {
         window.alert(`Invalid! You have ${5 - guesses} guesses remaining.`);
     }
 }
+if (guesses == 5) {
+    window.alert(`You Lose! The number was ${num}`);
+}
